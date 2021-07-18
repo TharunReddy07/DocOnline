@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "1021480784703",
+    "firebase_url": "https://my-application-6d359-default-rtdb.firebaseio.com",
+    "project_id": "my-application-6d359",
+    "storage_bucket": "my-application-6d359.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021480784703:android:f02f371034ca568890b98a",
+        "android_client_info": {
+          "package_name": "com.example.bookingdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021480784703-8r0etqqkul89g5f1v9ja6020hlo6iahn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK5qxOwuUm5POFwMGkxaoLDdCF829LJuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021480784703-8r0etqqkul89g5f1v9ja6020hlo6iahn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021480784703:android:7c6ef2e5438d7aa890b98a",
+        "android_client_info": {
+          "package_name": "com.example.doctordashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021480784703-8r0etqqkul89g5f1v9ja6020hlo6iahn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK5qxOwuUm5POFwMGkxaoLDdCF829LJuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021480784703-8r0etqqkul89g5f1v9ja6020hlo6iahn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021480784703:android:faef6c06411fd77290b98a",
+        "android_client_info": {
+          "package_name": "com.example.doctortimeslot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021480784703-8r0etqqkul89g5f1v9ja6020hlo6iahn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK5qxOwuUm5POFwMGkxaoLDdCF829LJuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021480784703-8r0etqqkul89g5f1v9ja6020hlo6iahn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021480784703:android:9c2498f24fff353690b98a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021480784703-8r0etqqkul89g5f1v9ja6020hlo6iahn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK5qxOwuUm5POFwMGkxaoLDdCF829LJuY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021480784703-8r0etqqkul89g5f1v9ja6020hlo6iahn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
