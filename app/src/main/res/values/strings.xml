@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">DoctorDashboard</string>
+    <string name="app_name">DocOnline</string>
+    <string name="we_will_send_an_otp_on_this_number">we will send an OTP on this number</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_the_otp">Enter the OTP sent to</string>
+    <string name="didn_t_recieve_the_otp">Didn\'t receive the OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="verify">Verify</string>
+    <string name="title_activity_send_otp">send_otp</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="specialization" >
+        <item>Cardiology</item>
+        <item>Covid Consultation</item>
+        <item>Child Development</item>
+        <item>Cold, Cough and Fever</item>
+        <item>ENT</item>
+    </string-array>
+
 </resources>

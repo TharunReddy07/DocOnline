@@ -7,6 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="ColorPrimaryDark">#F44336</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color  name="colorTextSecondary">#757575</color>
+    <color name="colorDivided">#BDBDBD</color>
+    <color name="colorwhite">#FFFFFF</color>
     <color name="cancel">#CC6D6D</color>
     <color name="button">#3A6A91</color>
     <color name="header">#2f477a</color>

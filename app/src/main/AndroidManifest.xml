@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.doctordashboard">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.patientdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -8,9 +11,27 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DoctorDashboard">
-        <activity android:name=".UpdateProfilePatient"></activity>
-        <activity android:name=".Reschedule" />
+        android:theme="@style/Theme.DocOnline"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UpdatePassword" />
+        <activity android:name=".MyAppointmentsDoctor" />
+        <activity android:name=".StartPage"/>
+        <activity android:name=".CreatePatient" />
+        <activity android:name=".VerifyOtpNewPassword" />
+        <activity android:name=".DoctorDetails" />
+        <activity android:name=".VerifyOtp" />
+        <activity android:name=".SendOtp" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".UpdateProfilePatient" />
+        <activity android:name=".ReSchedule" />
         <activity android:name=".ActiveAppointments" />
         <activity android:name=".Payment" />
         <activity android:name=".BookAppointment" />
@@ -18,13 +39,7 @@
         <activity android:name=".PatientDashboard" />
         <activity android:name=".Specialist" />
         <activity android:name=".DoctorSchedule" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".UpdateProfile" />
     </application>
 

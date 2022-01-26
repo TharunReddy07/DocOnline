@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     app:cardCornerRadius="10dp"
     app:cardElevation="8dp"
     android:layout_margin="10dp">
@@ -29,37 +30,91 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical"
+                android:paddingLeft="15dp">
 
-                <TextView
-                    android:id="@+id/dr_card_name"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr."
+                        android:textSize="20sp"
+                        android:fontFamily="@font/baloo"/>
+
+                    <TextView
+                        android:id="@+id/dr_card_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginLeft="7dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="Tsunade"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginLeft="7dp">
+
+                    <TextView
+                        android:id="@+id/dr_card_exp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="YRS EXP."
+                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        tools:ignore="RtlSymmetry" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
                     android:layout_marginStart="7dp"
                     android:layout_marginLeft="7dp"
-                    android:fontFamily="@font/baloo"
-                    android:text="Dr. Tsunade"
-                    android:textSize="18sp" />
+                    android:layout_marginTop="8dp">
 
-                <TextView
-                    android:id="@+id/dr_card_exp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="7dp"
-                    android:layout_marginLeft="7dp"
-                    android:text="15 YRS EXP."
-                    android:textSize="13sp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="$"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
 
-                <TextView
-                    android:id="@+id/dr_card_price"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="7dp"
-                    android:layout_marginLeft="7dp"
-                    android:layout_marginTop="8dp"
-                    android:text="$3800"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/dr_card_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="800"
+                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:textSize="15sp"
+                        tools:ignore="RtlSymmetry"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#c0c0c0" />
 
                 <TextView
                     android:id="@+id/dr_card_degree"

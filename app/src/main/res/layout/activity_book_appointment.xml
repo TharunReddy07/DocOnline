@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
+    android:background="@drawable/total_background"
     tools:context=".BookAppointment">
 
     <LinearLayout
@@ -46,14 +47,30 @@
                 app:civ_border_color="#7EB4CC"
                 app:civ_border_width="2dp" />
 
-            <TextView
-                android:id="@+id/dr_app_name"
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/baloo"
-                android:text="Dr. Tsunade"
-                android:textSize="25sp" />
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr. "
+                    android:layout_marginTop="10dp"
+                    android:textSize="25sp"
+                    android:fontFamily="@font/baloo"/>
+
+                <TextView
+                    android:id="@+id/dr_app_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/baloo"
+                    android:text="Tsunade"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"

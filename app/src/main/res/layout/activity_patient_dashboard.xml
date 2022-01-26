@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
+    android:background="@drawable/total_background"
     tools:context=".PatientDashboard">
 
     <LinearLayout
@@ -63,7 +64,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:src="@drawable/doc_schedule"/>
+                            android:src="@drawable/patient_book"/>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -98,7 +99,7 @@
                         <ImageView
                             android:layout_width="80dp"
                             android:layout_height="80dp"
-                            android:src="@drawable/doc_appointent"/>
+                            android:src="@drawable/patient_appointent"/>
 
                         <TextView
                             android:layout_width="match_parent"
